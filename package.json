@@ -19,5 +19,12 @@
     "apollo-server-express": "^2.25.3",
     "express": "^4.17.2",
     "graphql": "^15.8.0"
-  }
+  },
+
+  "buildpacks": [
+      {
+        "url": "mars/create-react-app"
+      }
+    ]
+  
 }
